@@ -14,11 +14,13 @@
 
 lst1 = [10, 20, 30, 40, 50]
 lst2 = [0, 2, 4]
-for i in range(len(lst2)):
-    index=lst2[i]
-    lst2[i]=lst1[index]
+# for i in range(len(lst2)):
     
-print(lst2)
+#     index=lst2[i]
+#     print(index)
+    # lst2[i]=lst1[index]
+    
+# print(lst2)
 """ 
 
 step-1 i=o
@@ -44,3 +46,12 @@ final response is [10,30,50]
     
 """
 # Implement second method
+# for lst2 in lst1:
+#     lst1.append(lst2)
+# print(lst2)
+response=[]
+for item in lst2:
+    # print(item)
+    response.append(lst1[item])
+    
+print(response)

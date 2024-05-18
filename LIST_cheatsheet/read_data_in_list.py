@@ -1,0 +1,6 @@
+furniture = ['table', 'chair', 'rack', 'shelf']
+furniture[0]
+furniture[1]
+furniture[2]
+furniture[3]
+furniture[4]
