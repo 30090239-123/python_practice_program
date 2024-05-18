@@ -4,3 +4,5 @@
 # m=a.split('-')
 # print(m)
 
+m='vikash kumar'
+print(m.replace('k','i'))
